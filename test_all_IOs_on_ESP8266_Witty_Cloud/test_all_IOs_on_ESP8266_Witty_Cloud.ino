@@ -12,7 +12,7 @@ Statement       :   To test all IOs on ESP8266 Witty Cloud Development Board.
 
 void setup() {
   Serial.begin(9600); 
-  WiFi.begin("poco", "Tushar@16raw"); // Connect to WiFi network
+  WiFi.begin("SSID", "PASSWORD"); // Connect to WiFi network
   while (WiFi.status() != WL_CONNECTED) { 
     Serial.print(".");
     delay(200); 

@@ -19,13 +19,13 @@
 #define ldr   A0          // LDR
 
 
-#define WLAN_SSID       "poco"
-#define WLAN_PASS       "Tushar@16raw"
+#define WLAN_SSID       "SSID"
+#define WLAN_PASS       "PASSWORD"
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                // mqtt: 1883, secure-mqtt: 8883
-#define AIO_USERNAME    "Tusharfruit"
-#define AIO_KEY         "aio_Aglk507gNgMoH1jVze8fItBCXq4L"
+#define AIO_USERNAME    "USERNAME"
+#define AIO_KEY         "AIO KEY"
 
 WiFiClient client;                                                                                      // declare client
 

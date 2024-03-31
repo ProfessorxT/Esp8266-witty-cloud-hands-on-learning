@@ -20,7 +20,7 @@ void setup() {
   pinMode(green, OUTPUT); 
 
   Serial.begin(9600);    // Start serial communication
-  WiFi.begin("poco", "Tushar@16raw"); // Connect to WiFi network
+  WiFi.begin("SSID", "PASSWORD"); // Connect to WiFi network
   while (WiFi.status() != WL_CONNECTED) { // Wait for connection
     Serial.print(".");
     delay(200);

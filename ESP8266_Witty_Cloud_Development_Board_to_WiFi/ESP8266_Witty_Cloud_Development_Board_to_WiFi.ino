@@ -7,7 +7,7 @@ Statement   	:   To connect ESP8266 Witty Cloud Development Board to WiFi and pr
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  WiFi.begin("poco","Tushar@16raw"); // ssid and password
+  WiFi.begin("SSID","PASSWORD"); // ssid and password
   while(WiFi.status()!=WL_CONNECTED){ // Connect to wifi network
     Serial.print(".");
     delay(200);

@@ -21,7 +21,7 @@ void setup() {
   pinMode(blue, OUTPUT);
   pinMode(green, OUTPUT);
   Serial.begin(9600);
-  WiFi.softAP("esp","esp@8266");
+  WiFi.softAP("SSID","PASSWORD");
   Serial.println();
   Serial.println("Wifi hostspot started");
   Serial.println(WiFi.softAPIP());
